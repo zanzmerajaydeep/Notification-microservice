@@ -1,0 +1,98 @@
+package com.pushnotificationservice.controller;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pushnotificationservice.model.Admin;
+import com.pushnotificationservice.model.PushNotification;
+import com.pushnotificationservice.repo.AdminRepository;
+import com.pushnotificationservice.repo.PushNotificationRepository;
+import com.pushnotificationservice.service.PushNotificationService;
+
+
+
+
+
+@RestController
+@RequestMapping("/pushnotification")
+public class PushNotificationController {
+	
+	@Autowired
+	PushNotificationRepository pushnotificationrepo;
+	
+	@Autowired
+	AdminRepository adminrepo;
+	
+	@Autowired
+	PushNotificationService pushnotificationservice;
+	
+	@GetMapping("/home")
+	public String getHome() {
+		return "Home Push Notification service....";
+	}
+	
+//	@GetMapping("/insert")
+//	public String insertNotification() {
+//		Admin a = new Admin("https://fcm.googleapis.com/fcm/send",
+//				"AAAA8l7Hy9Q:APA91bFkB8t-RSn_XLwLx0q4zeJNQEntAbGoXdaGRfNZjfQcBP8PTa4pqjgRJlst0kOtGPM5JhD52LuQZYF_U2wG9pDzQfzjN44p_Vb4pQjLbTILZaebD6vRcCuN1ahheA9BEQFUSLj9",
+//				"cKs_VeuUSSKVTj5gFdRltj:APA91bF7RLhfCM8F4L2kRL5_f8mwEWpT_Z2ys6miLd9f2onV0_NV_Xn5BvZD3O8WlKx3KPF42a0vTKsc35IFgMlZPPLrAeaCAhQuBth_ZZ7AHIH00alQYG3w3A5pXqPz4jh5D9SFbQr3");
+//		adminrepo.save(a);
+//		return "inserted";
+//	}
+	
+//	@GetMapping("/insertpush")
+//	public String insertNotify() {
+//		PushNotification pn = new PushNotification("Internal Semester Results", "Dear $, your your percentage is $% in the recent exam.");
+//		pushnotificationrepo.save(pn);
+//		return "inserted";
+//	}
+	
+//	@PostMapping(value = "/sendnotification")
+//	public String sendSMS(@RequestParam String name,String percentage) {
+//		PushNotification pn = pushnotificationrepo.findById("64379e71ca91f272fd7b9b12").get();
+//		
+//		String bd[] = pn.getBody().split("\\$");
+//
+//		String body = bd[0]+name+bd[1]+percentage+bd[2];
+//		
+//		String title = pn.getTitle();
+//		try {
+//			pushnotificationservice.sendPushNotification(title, body);
+//			return "sent...";
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();	
+//			return "error...";
+//		}
+//	
+//	}
+	
+	
+	
+	public String sendNotification(@RequestBody Map<String, Object> pnData) {
+
+		String title = (String) pnData.get("title");
+		String body = (String) pnData.get("body");
+		String fcm_api = (String) pnData.get("fcm_api");
+		String server_key = (String) pnData.get("server_key");
+		String app_token = (String) pnData.get("app_token");
+
+		try {
+			pushnotificationservice.sendPushNotification(title, body, fcm_api, server_key, app_token);
+			return "sent...";
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "error...";
+		}
+
+	}
+}

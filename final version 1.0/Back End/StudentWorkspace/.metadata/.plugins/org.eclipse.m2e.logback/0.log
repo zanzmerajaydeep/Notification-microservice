@@ -1,0 +1,270 @@
+2023-04-28 12:01:17,974 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-28 12:01:32,583 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Student:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\pom.xml.
+2023-04-28 12:01:35,652 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:01:35,674 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:01:35,681 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:01:37,566 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:01:37,570 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:01:37,574 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:03:29,035 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:03:29,042 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:03:29,047 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:06:19,909 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:06:19,917 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:06:19,922 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:06:24,213 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-28 12:06:27,701 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2023-04-28 12:06:27,717 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-04-28 12:06:27,718 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-04-28 12:06:27,719 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-04-28 12:06:27,720 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-04-28 12:06:27,720 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-04-28 12:06:27,720 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-04-28 12:06:27,720 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-04-28 12:06:27,721 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-04-28 12:06:27,721 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-04-28 12:06:27,721 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-04-28 12:06:27,722 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-04-28 12:06:27,722 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-04-28 12:06:27,722 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-04-28 12:06:27,722 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-04-28 12:06:27,723 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-04-28 12:06:27,723 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-04-28 12:06:27,723 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-04-28 12:06:27,723 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-04-28 12:06:27,724 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-04-28 12:06:27,724 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-04-28 12:06:27,724 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-04-28 12:06:27,724 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-04-28 12:06:27,725 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-04-28 12:06:27,725 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-04-28 12:06:27,725 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-04-28 12:06:27,725 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-04-28 12:06:27,726 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-04-28 12:06:27,726 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-04-28 12:06:27,726 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-04-28 12:06:27,726 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-04-28 12:06:27,727 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-04-28 12:06:27,727 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-04-28 12:06:27,727 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-04-28 12:06:27,728 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-04-28 12:06:27,731 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2023-04-28 12:06:27,732 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-04-28 12:06:27,733 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2023-04-28 12:06:28,061 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-04-28 12:06:28,061 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2023-04-28 12:06:28,307 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-04-28 12:06:28,307 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2023-04-28 12:06:28,609 [Worker-2: Launching Student] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-04-28 12:06:28,615 [Worker-2: Launching Student] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student":
+2023-04-28 12:06:28,615 [Worker-2: Launching Student] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-04-28 12:08:04,183 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:08:04,190 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:08:04,194 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:08:04,384 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:08:04,389 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:08:04,397 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:10:25,884 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:10:25,891 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:10:25,895 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:10:40,461 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:10:40,468 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:10:40,476 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:11:08,312 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:11:08,318 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:11:08,323 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:11:27,808 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:11:27,814 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:11:27,818 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:12:17,772 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:12:17,779 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:12:17,783 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:16:40,323 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:16:40,331 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:16:40,335 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:45:05,198 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:45:05,291 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:45:05,297 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 12:53:59,469 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-28 12:54:02,108 [Worker-35: Launching Student (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student":
+2023-04-28 12:54:02,109 [Worker-35: Launching Student (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-04-28 12:58:46,516 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 12:58:46,532 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 12:58:46,535 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 14:00:42,292 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 14:00:42,323 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 14:00:42,326 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 14:03:25,553 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 14:03:25,570 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 14:03:25,573 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:22:22,465 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:22:22,569 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:22:22,572 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:25:48,429 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:25:48,476 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:25:48,478 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:26:06,308 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:26:06,390 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:26:06,393 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:27:13,967 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:27:13,976 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:27:13,980 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:30:13,968 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:30:13,983 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:30:13,987 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:31:50,355 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:31:50,360 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:31:50,362 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:32:14,986 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-28 16:32:17,754 [Worker-69: Launching Student (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student":
+2023-04-28 16:32:17,755 [Worker-69: Launching Student (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-04-28 16:35:27,525 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:35:27,530 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:35:27,533 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:37:49,779 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:37:49,788 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:37:49,795 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:40:59,727 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:40:59,732 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:40:59,735 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:42:30,389 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:42:30,393 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:42:30,396 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:42:46,291 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:42:46,296 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:42:46,298 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:44:24,257 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:44:24,268 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:44:24,270 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:44:25,322 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:44:25,326 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:44:25,328 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:50:24,302 [Worker-50: Launching Student - StudentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:50:24,309 [Worker-50: Launching Student - StudentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:50:24,313 [Worker-50: Launching Student - StudentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:54:20,499 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:54:20,506 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:54:20,509 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 16:55:29,674 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 16:55:29,679 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 16:55:29,683 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:01:09,388 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:01:09,402 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:01:09,405 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:01:47,649 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:01:47,655 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:01:47,658 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:02:38,475 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:02:38,491 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:02:38,493 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:03:40,704 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:03:40,710 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:03:40,712 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:03:59,486 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:03:59,509 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:03:59,512 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:04:50,755 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:04:50,760 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:04:50,763 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:35:21,221 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:35:21,263 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:35:21,265 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-28 17:48:54,626 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 17:48:54,656 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 17:48:54,659 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-04-29 09:42:19,892 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-30 00:45:07,723 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-01 23:08:32,609 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-02 10:31:31,726 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:31:31,951 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:31:31,956 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:31:55,855 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:31:55,865 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:31:55,869 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:33:37,049 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:33:37,056 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:33:37,059 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:41:53,915 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:41:53,928 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:41:53,931 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:42:11,678 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:42:11,683 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:42:11,686 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:42:20,781 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:42:20,787 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:42:20,790 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 10:42:48,727 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 10:42:48,735 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 10:42:48,738 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 13:51:10,904 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-02 13:51:28,371 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 13:51:28,410 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 13:51:28,419 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 15:32:09,767 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 15:32:10,100 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 15:32:10,104 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\src\test\resources
+2023-05-02 15:35:31,111 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-02 15:35:33,826 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Student:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student\pom.xml.
+2023-05-02 15:35:37,775 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Student/src/main/java
+2023-05-02 15:35:37,776 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Student/src/main/resources
+2023-05-02 15:35:37,776 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Student/src/main/resources
+2023-05-02 15:35:37,777 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Student/src/test/java
+2023-05-02 15:35:38,129 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 0.00 sec 
+2023-05-02 15:39:54,786 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-02 15:39:58,649 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2023-05-02 15:39:58,665 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-05-02 15:39:58,666 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-05-02 15:39:58,666 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-05-02 15:39:58,666 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-05-02 15:39:58,667 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-05-02 15:39:58,667 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-05-02 15:39:58,667 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-05-02 15:39:58,668 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-05-02 15:39:58,668 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-05-02 15:39:58,668 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-05-02 15:39:58,668 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-05-02 15:39:58,669 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-05-02 15:39:58,669 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-05-02 15:39:58,669 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-05-02 15:39:58,671 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-05-02 15:39:58,672 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-05-02 15:39:58,672 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-05-02 15:39:58,672 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-05-02 15:39:58,672 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-05-02 15:39:58,672 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-05-02 15:39:58,673 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-05-02 15:39:58,673 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-05-02 15:39:58,673 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-05-02 15:39:58,673 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-05-02 15:39:58,673 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-05-02 15:39:58,674 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-05-02 15:39:58,674 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-05-02 15:39:58,674 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-05-02 15:39:58,674 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-05-02 15:39:58,674 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-05-02 15:39:58,675 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-05-02 15:39:58,676 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-05-02 15:39:58,676 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-05-02 15:39:58,676 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-05-02 15:39:58,677 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2023-05-02 15:39:58,696 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-05-02 15:39:58,696 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2023-05-02 15:39:58,696 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-05-02 15:39:58,696 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2023-05-02 15:39:58,831 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-05-02 15:39:58,831 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2023-05-02 15:39:59,008 [Worker-46: Launching Student (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-05-02 15:39:59,011 [Worker-46: Launching Student (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\s2\Student":
+2023-05-02 15:39:59,011 [Worker-46: Launching Student (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-05-03 01:08:22,349 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-03 14:52:39,088 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

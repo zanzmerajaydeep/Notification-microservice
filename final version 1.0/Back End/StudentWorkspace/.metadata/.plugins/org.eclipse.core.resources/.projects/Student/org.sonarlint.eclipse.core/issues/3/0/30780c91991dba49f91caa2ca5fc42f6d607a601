@@ -1,0 +1,31 @@
+
+e
+java:S1481i"-Remove this unused "resArray" local variable.(–òœ¹ÿÿÿÿÿ8¬µ·áı0HRMINORZ
+CODE_SMELL
+{	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ€§OH RMINORZ
+CODE_SMELL
+x
+java:S1871D"LThis branch's code block is the same as the block for the branch on line 66.(®á¸ôH¡RMAJORZ
+CODE_SMELL
+|	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞëŞH£RMINORZ
+CODE_SMELL
+p	java:S106n"9Replace this use of System.out or System.err by a logger.(˜ÉŠüÿÿÿÿ8Â­µ¾ü0H¤RMAJORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'org.springframework.http.HttpStatusCode'.(®å™Õ8¬µ·áı0H¥RMINORZ
+CODE_SMELL
+{	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ€§OH§RMINORZ
+CODE_SMELL
+t
+java:S1854i"<Remove this useless assignment to local variable "resArray".(–òœ¹ÿÿÿÿÿ8¬µ·áı0H¨RMAJORZ
+CODE_SMELL
+y
+java:S1871z"MThis branch's code block is the same as the block for the branch on line 120.(®á¸ôH©RMAJORZ
+CODE_SMELL
+p	java:S106)"9Replace this use of System.out or System.err by a logger.(Âô¥ùÿÿÿÿ8£Ùƒ¾ü0H«RMAJORZ
+CODE_SMELL
+i
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8¬µ·áı0H¬RMINORZ
+CODE_SMELL
+|	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‹ÂÈH®RMINORZ
+CODE_SMELL

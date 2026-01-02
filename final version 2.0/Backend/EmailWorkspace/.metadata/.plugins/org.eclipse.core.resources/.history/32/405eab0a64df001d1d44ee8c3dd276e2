@@ -1,0 +1,51 @@
+package com.emailservice.controller;
+
+import java.util.Map;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.emailservice.service.EmailService;
+
+@RestController
+@RequestMapping("/email")
+@CrossOrigin("http://localhost:3000/")
+public class EmailController {
+
+	
+	@Autowired
+	EmailService service;
+	
+	@GetMapping("/home")
+	public String getHome() {
+		return "Welcome to email service";
+	}
+	
+	
+	
+	@PostMapping("sendmail")
+	public String sendMail(@RequestBody Map<String, Object> emailData) {
+
+		String to = (String) emailData.get("to");
+		String subject = (String) emailData.get("subject");
+		String body = (String) emailData.get("body");
+		String from = (String) emailData.get("from");
+		String password = (String) emailData.get("password");
+		System.out.println(password);
+		try {
+			service.sendmail(to, subject, body,from,password);
+			return "sent...";
+		}
+		catch(Exception exc)
+		{
+			exc.printStackTrace();
+			return "error...";
+		}
+		
+	}
+}
+
+

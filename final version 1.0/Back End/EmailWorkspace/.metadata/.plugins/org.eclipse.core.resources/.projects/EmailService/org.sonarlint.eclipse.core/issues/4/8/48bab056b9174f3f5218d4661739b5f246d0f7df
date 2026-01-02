@@ -1,0 +1,20 @@
+
+n	java:S1250"<This block of commented-out lines of code should be removed.(—Äğ¸8à‹Ë¸ü0HšRMAJORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'org.springframework.http.HttpStatusCode'.(®å™Õ8¤™çü0H›RMINORZ
+CODE_SMELL
+|
+java:S2147?"DCombine this catch with the one at line 59, which has the same body.(ä±üÿÿÿÿ8îàÀìı0HRMINORZ
+CODE_SMELL
+w
+java:S1128	"?Remove this unused import 'org.springframework.http.MediaType'.(úŸİ¯şÿÿÿÿ8ªæ¬ìü0H¡RMINORZ
+CODE_SMELL
+y
+java:S1128"ARemove this unused import 'org.springframework.http.HttpHeaders'.(ãŸñ×úÿÿÿÿ8ªæ¬ìü0H£RMINORZ
+CODE_SMELL
+s	java:S1252"<This block of commented-out lines of code should be removed.(ëÂù“úÿÿÿÿ8ò²”ëü0H¥RMAJORZ
+CODE_SMELL
+š
+java:S1192:"dDefine a constant instead of duplicating this literal "{\"error\": \"Failed to send email " 3 times.(Òã¡©8ù¢Âëü0HªRCRITICALZ
+CODE_SMELL

@@ -1,0 +1,50 @@
+package com.hospital.controller;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.hospital.externalservice.SMSService;
+import com.hospital.model.Hospital;
+import com.hospital.service.HospitalService;
+import com.hospital.service.HospitalServiceImpl;
+
+@RestController
+public class HospitalController {
+	
+	@Autowired
+	HospitalService hospitalService;
+	
+	@Autowired
+	HospitalServiceImpl hospitalServiceImpl;
+	
+	@Autowired
+	SMSService externalSmsService;
+	
+	@GetMapping("/getAllPatient")
+	public List<Hospital> getPatient()
+	{
+		return hospitalService.getPatient(); 
+	}
+	
+	@GetMapping("/getPatientByContactNo")
+	public Hospital getPatientByContactNo(@RequestBody String contactNo)
+	{
+		return hospitalServiceImpl.getPatientByContactNo(contactNo) ;
+	}
+	
+	@PostMapping("/patient")
+	public Hospital addPatient(@RequestBody Hospital hospital)
+	{
+		return hospitalService.addPatient(hospital);
+	}
+	
+	@PostMapping("/sendsms")
+	public String callSMSService()
+	{
+		return externalSmsService.callSMSService();
+	}
+}

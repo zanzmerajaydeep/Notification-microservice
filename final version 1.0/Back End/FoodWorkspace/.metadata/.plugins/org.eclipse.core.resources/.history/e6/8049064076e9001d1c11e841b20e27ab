@@ -1,0 +1,73 @@
+package com.foodservice.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("customer")
+public class Customer {
+
+	private String customerName;
+	private String cardNo;
+	private String customerContactNo;
+	private String expairyDate;
+	private String bankName;
+	private String apptoken;
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getCardNo() {
+		return cardNo;
+	}
+	public void setCardNo(String cardNo) {
+		this.cardNo = cardNo;
+	}
+	public String getCustomerContactNo() {
+		return customerContactNo;
+	}
+	public void setCustomerContactNo(String customerContactNo) {
+		this.customerContactNo = customerContactNo;
+	}
+	public String getExpairyDate() {
+		return expairyDate;
+	}
+	public void setExpairyDate(String expairyDate) {
+		this.expairyDate = expairyDate;
+	}
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	public String getApptoken() {
+		return apptoken;
+	}
+	public void setApptoken(String apptoken) {
+		this.apptoken = apptoken;
+	}
+	public Customer(String customerName, String cardNo, String customerContactNo, String expairyDate, String bankName,
+			String apptoken) {
+		super();
+		this.customerName = customerName;
+		this.cardNo = cardNo;
+		this.customerContactNo = customerContactNo;
+		this.expairyDate = expairyDate;
+		this.bankName = bankName;
+		this.apptoken = apptoken;
+	}
+	public Customer() {
+		super();
+	
+	}
+	@Override
+	public String toString() {
+		return "Customer [customerName=" + customerName + ", cardNo=" + cardNo + ", customerContactNo="
+				+ customerContactNo + ", expairyDate=" + expairyDate + ", bankName=" + bankName + ", apptoken="
+				+ apptoken + "]";
+	}
+	
+	
+	
+}

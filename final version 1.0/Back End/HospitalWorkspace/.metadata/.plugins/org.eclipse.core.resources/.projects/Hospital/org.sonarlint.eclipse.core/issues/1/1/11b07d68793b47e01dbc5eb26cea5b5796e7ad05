@@ -1,0 +1,54 @@
+
+ƒ	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‹ÂÈ8Ê“•áı0HÏRMINORZ
+CODE_SMELL
+i	java:S106."9Replace this use of System.out or System.err by a logger.(İÔğíıÿÿÿÿHÃRMAJORZ
+CODE_SMELL
+p	java:S106h"9Replace this use of System.out or System.err by a logger.(İÔğíıÿÿÿÿ8Ê“•áı0HÖRMAJORZ
+CODE_SMELL
+„	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñáÀ¿8Ê“•áı0HÑRMINORZ
+CODE_SMELL
+{	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äõ4HÂRMINORZ
+CODE_SMELL
+q
+java:S1854D"@Remove this useless assignment to local variable "hospitalName".(ÚÍÉÊüÿÿÿÿHÆRMAJORZ
+CODE_SMELL
+|	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñáÀ¿HÇRMINORZ
+CODE_SMELL
+q	java:S106Œ"9Replace this use of System.out or System.err by a logger.(†Ş¡Òùÿÿÿÿ8Ê“•áı0HÚRMAJORZ
+CODE_SMELL
+J
+java:S1700#"Rename field "smsService"(Á¹Â§øÿÿÿÿHËRMAJORZ
+CODE_SMELL
+	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ûÜ«ûÿÿÿÿHÅRMINORZ
+CODE_SMELL
+|	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‹ÂÈHÌRMINORZ
+CODE_SMELL
+ˆ	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ûÜ«ûÿÿÿÿ8Ê“•áı0HÎRMINORZ
+CODE_SMELL
+ƒ	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äõ48Ê“•áı0HĞRMINORZ
+CODE_SMELL
+i
+java:S1481"1Remove this unused "hospitalName" local variable.(ÙÓÔ’ùÿÿÿÿ8Ê“•áı0HØRMINORZ
+CODE_SMELL
+b
+java:S1481D"1Remove this unused "hospitalName" local variable.(ÚÍÉÊüÿÿÿÿHÈRMINORZ
+CODE_SMELL
+p	java:S106s"9Replace this use of System.out or System.err by a logger.(¼ë¹Òûÿÿÿÿ8Ê“•áı0H×RMAJORZ
+CODE_SMELL
+t
+java:S1854f"<Remove this useless assignment to local variable "resArray".(–òœ¹ÿÿÿÿÿ8Ê“•áı0HÒRMAJORZ
+CODE_SMELL
+x
+java:S1854"@Remove this useless assignment to local variable "hospitalName".(ÙÓÔ’ùÿÿÿÿ8Ê“•áı0HÓRMAJORZ
+CODE_SMELL
+[
+java:S3740-"/Provide the parametrized type for this generic.(’…ÓÆHÊRMAJORZ
+CODE_SMELL
+b
+java:S3740g"/Provide the parametrized type for this generic.(’…ÓÆ8Ê“•áı0HÍRMAJORZ
+CODE_SMELL
+e
+java:S1481f"-Remove this unused "resArray" local variable.(–òœ¹ÿÿÿÿÿ8Ê“•áı0HÔRMINORZ
+CODE_SMELL
+i	java:S106Q"9Replace this use of System.out or System.err by a logger.(†Ş¡ÒùÿÿÿÿHÄRMAJORZ
+CODE_SMELL

@@ -1,0 +1,25 @@
+
+ˆ	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úŠŽØýÿÿÿÿ8¿Ò¢óü0H·RMINORZ
+CODE_SMELL
+l	java:S125-"<This block of commented-out lines of code should be removed.(Æ÷µžùÿÿÿÿH°RMAJORZ
+CODE_SMELL
+w
+java:S1128"FRemove this unused import 'com.twilio.rest.api.v2010.account.Message'.(Øâà‡ýÿÿÿÿH¬RMINORZ
+CODE_SMELL
+l	java:S125&"<This block of commented-out lines of code should be removed.(Ç§¯ÐøÿÿÿÿH§RMAJORZ
+CODE_SMELL
+‚
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿH¥RMINORZ
+CODE_SMELL
+h
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8™í£óü0H¡RMINORZ
+CODE_SMELL
+_
+java:S1128".Remove this unused import 'com.twilio.Twilio'.(„»žèþÿÿÿÿH®RMINORZ
+CODE_SMELL
+t
+java:S1128"CRemove this unused import 'com.twilio.rest.lookups.v1.PhoneNumber'.(»”«ÚúÿÿÿÿH¸RMINORZ
+CODE_SMELL
+n
+java:S1128"=Remove this unused import 'com.twilio.type.PhoneNumberPrice'.(…²Ù–üÿÿÿÿH£RMINORZ
+CODE_SMELL

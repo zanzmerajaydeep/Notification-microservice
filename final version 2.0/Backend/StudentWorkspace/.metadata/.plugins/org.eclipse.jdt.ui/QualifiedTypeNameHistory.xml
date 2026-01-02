@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.dao.DataAccessResourceFailureException"/>
+    <fullyQualifiedTypeName name="com.mongodb.DuplicateKeyException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.IncorrectResultSizeDataAccessException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.PermissionDeniedDataAccessException"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.QueryTimeoutException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.TransientDataAccessException"/>
+    <fullyQualifiedTypeName name="com.mongodb.MongoException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.DataAccessException"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Field"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.FieldType"/>
+</qualifiedTypeNameHistroy>

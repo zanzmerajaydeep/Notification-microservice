@@ -1,0 +1,33 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+server:
+  port: 8888
+spring:
+  application:
+    name: Gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+        
+        
+          
+#Okta configuration
+
+okta:
+  oauth2:
+    issuer: https://dev-29022582.okta.com/oauth2/default
+    audience: api://default
+    client-id: 0oa9gfbc8oxJ9HpqQ5d7
+    client-secret: DZk_dNRESyyci-JxoZQ2dGJuK6DrvMT4e2CFJH6m
+    scopes: openid, profile, email, offline_access
+    
+              

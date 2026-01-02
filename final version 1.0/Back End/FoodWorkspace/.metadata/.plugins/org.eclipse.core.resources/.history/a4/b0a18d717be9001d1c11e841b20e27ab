@@ -1,0 +1,136 @@
+package com.foodservice.externalservice;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.foodservice.model.Food;
+import com.foodservice.model.PNAdmin;
+import com.foodservice.model.Template;
+import com.foodservice.repository.FoodRepo;
+import com.foodservice.service.FoodService;
+import com.foodservice.service.PNAdminService;
+import com.foodservice.service.TemplateService;
+
+@Service
+public class PNService {
+	@Autowired
+	RestTemplate restTemplet;
+
+	@Autowired
+	FoodService foodService;
+
+	@Autowired
+	PNAdminService pnService;
+
+	@Autowired
+	TemplateService tempService;
+
+	@Autowired
+	FoodRepo foodRepo;
+
+	public List<ResponseEntity<String>> callPNService() {
+		Map<String, Object> pnData = new HashMap<>();
+
+		List<ResponseEntity<String>> resArray = new ArrayList<>();
+
+		List<Template> t_list = tempService.getAll();
+
+		Template select_template = null;
+		for (Template temp : t_list) {
+			if (temp.getName().equals("PN Template")) {
+				select_template = temp;
+			}
+		}
+		List<Food> foodlist = foodService.getFood();
+		PNAdmin pa = pnService.getAll().get(0);
+
+		String[] bd = select_template.getBody().split("\\$");
+
+		String url = "http://localhost:8888/pushnotificationmicrosevice/pushnotification/sendnotification";
+
+		for (Food f : foodlist) {
+			String foodName = f.getFoodName();
+			String discount = f.getDiscount();
+			String customerName = f.getCustomerName();
+
+			String title = select_template.getTitle();
+			String body = bd[0] + customerName + bd[1] + foodName + bd[2] + discount + bd[3];
+
+			String fcm_api = pa.getFcm_api();
+			String server_key = pa.getServer_key();
+			String app_token = f.getApp_token();
+
+			pnData.put("title", title);
+			pnData.put("body", body);
+			pnData.put("fcm_api", fcm_api);
+			pnData.put("server_key", server_key);
+			pnData.put("app_token", app_token);
+
+			System.out.println(pnData);
+
+			try {
+				resArray.add(restTemplet.postForEntity(url, pnData, String.class));
+			} catch (Exception e) {
+				e.printStackTrace();
+				resArray.add(ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage()));
+			}
+		}
+
+		return resArray;
+
+	}
+
+	public ResponseEntity<String> callPNServiceById(String pndata) {
+		Map<String, Object> pnData = new HashMap<>();
+
+		List<Template> t_list = tempService.getAll();
+
+		Template select_template = null;
+		for (Template temp : t_list) {
+			if (temp.getName().equals("PN Template")) {
+				select_template = temp;
+			}
+		}
+		Food f = foodRepo.findByCustomerName(pndata);
+
+		PNAdmin pa = pnService.getAll().get(0);
+
+		String[] bd = select_template.getBody().split("\\$");
+
+		String url = "http://localhost:8888/pushnotificationmicrosevice/pushnotification/sendnotification";
+
+		String foodName = f.getFoodName();
+		String discount = f.getDiscount();
+		String customerName = f.getCustomerName();
+
+		String title = select_template.getTitle();
+		String body = bd[0] + customerName + bd[1] + foodName + bd[2] + discount + bd[3];
+
+		String fcm_api = pa.getFcm_api();
+		String server_key = pa.getServer_key();
+		String app_token = f.getApp_token();
+
+		pnData.put("title", title);
+		pnData.put("body", body);
+		pnData.put("fcm_api", fcm_api);
+		pnData.put("server_key", server_key);
+		pnData.put("app_token", app_token);
+
+		System.out.println(pnData);
+
+		try {
+			return restTemplet.postForEntity(url, pnData, String.class);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
+		}
+	}
+}

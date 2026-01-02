@@ -1,0 +1,84 @@
+package com.notifier.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.notifier.externalservice.EmailService;
+import com.notifier.externalservice.SMSService;
+import com.notifier.model.Student;
+import com.notifier.service.StudentService;
+
+@RestController
+@CrossOrigin("http://localhost:3000")
+public class StudentController {
+	
+	@Autowired
+	StudentService studentService;
+	
+	@Autowired
+	EmailService emailService;
+
+	@Autowired
+	SMSService smsService;
+	
+	//API to get all students details 
+	@GetMapping("/student")
+	public List<Student> getStudents()
+	{
+		return studentService.getStudents();
+	}
+	
+	
+	//API to add students 
+	@PostMapping("/student")
+	public Student addStudent(@RequestBody Student student)
+	{
+		return studentService.addStudent(student);
+	}
+	
+	@GetMapping("/test")
+	public ResponseEntity<String> callGateway()
+	{
+		return emailService.callGateway();
+	}
+	
+	@PostMapping("/sendmail")
+	public List<ResponseEntity<String>> callEmailService()
+	{
+		return emailService.callEmailService();
+	}
+	
+	@PostMapping("/sendmailbyid")
+	public ResponseEntity<String> callEmailServiceByID(@RequestBody String emaildata)
+	{
+		return emailService.callEmailServiceByEmail(emaildata);
+	}
+	
+	@PostMapping("/sendsms")
+	public String callSMSService()
+	{
+		return smsService.callSMSService();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

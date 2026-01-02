@@ -1,0 +1,16 @@
+package com.notifier.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.notifier.model.Student;
+
+@Repository
+public interface StudentRepository extends MongoRepository<Student, Long>{
+
+	Student findByStudentEmail(String emailreq);
+	
+	
+	
+}
+	

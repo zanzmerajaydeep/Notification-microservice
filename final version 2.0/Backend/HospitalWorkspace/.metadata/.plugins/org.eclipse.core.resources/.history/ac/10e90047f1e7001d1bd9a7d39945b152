@@ -1,0 +1,91 @@
+package com.hospital.externalservice;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import java.util.List;
+import java.util.Map;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.hospital.model.Hospital;
+import com.hospital.model.SMSAdmin;
+import com.hospital.model.Template;
+import com.hospital.service.HospitalService;
+import com.hospital.service.SMSservice;
+import com.hospital.service.TemplateService;
+
+@Service
+public class SMSService {
+
+	@Autowired
+	RestTemplate restTemplet;
+
+	@Autowired
+	HospitalService hospitalService;
+	
+	@Autowired
+	SMSservice smsService;
+
+	@Autowired
+	TemplateService templateService;
+
+	
+	@SuppressWarnings("null")
+	public List<ResponseEntity<String>> callSMSService() {
+		
+		List<ResponseEntity<String>> resArray = new ArrayList<>();
+		Map<String, Object> smsData = new HashMap();
+		System.out.println("method entry...");
+		List<Template> t_list = templateService.getAll();
+		Template select_template = null;
+		for(Template temp:t_list)
+		{
+			if(temp.getName().equals("SMS"))
+			{
+				select_template=temp;
+			}
+		}
+		List<Hospital> hospitalList = hospitalService.getPatient();
+		SMSAdmin sa = smsService.getAll().get(0);
+		
+		String[] bd = select_template.getBody().split("\\$");
+
+		String url = "http://localhost:8888/smsmicroservice/sms/sendsms";
+
+		for (Hospital h : hospitalList) {
+			String patientName = h.getPatientName();
+			String doctorName = h.getDoctorName();
+			String date = h.getDate();
+			String time = h.getTime();
+			String hospitalName = h.getHospitalName();
+			String contactNo = h.getContactNo();
+			String subject = "Booking";
+			String body = bd[0] + patientName + bd[1] + doctorName + bd[2] + date + bd[3] + time  + bd[4];
+			String account_sid = sa.getAccount_sid();
+			String auth_token = sa.getAuth_token();
+			String smsfrom=sa.getPhoneNo();
+			smsData.put("smsto", contactNo);
+			smsData.put("subject", subject);
+			smsData.put("body", body);
+			smsData.put("account_sid", account_sid);
+			smsData.put("auth_token", auth_token);
+			smsData.put("smsfrom", smsfrom);
+			System.out.println(smsData);
+			
+			
+			try {
+				resArray.add(
+						restTemplet.postForEntity(url, smsData, String.class));
+			} catch (Exception e) {
+				e.printStackTrace();
+				resArray.add(ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage()));
+			}
+			
+		}
+		return resArray;
+	}
+}

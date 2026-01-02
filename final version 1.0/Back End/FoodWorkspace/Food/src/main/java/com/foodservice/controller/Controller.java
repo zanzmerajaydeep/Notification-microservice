@@ -1,0 +1,79 @@
+package com.foodservice.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.foodservice.externalservice.PNService;
+import com.foodservice.externalservice.PNServiceCustomer;
+import com.foodservice.model.Customer;
+import com.foodservice.model.Food;
+import com.foodservice.repository.CustomerRepo;
+import com.foodservice.service.FoodServiceImp;
+
+@RestController
+@CrossOrigin("http://localhost:3000")
+public class Controller {
+	@Autowired
+	FoodServiceImp foodService;
+	
+	@Autowired
+	PNService pnService;
+	
+	@Autowired
+	PNServiceCustomer pnServiceCustomer;
+	
+	@Autowired
+	CustomerRepo customerRepo;
+	
+	
+	
+	@PostMapping("/food")
+	public Food addFood(@RequestBody Food food)
+	{
+		return foodService.addPatient(food);
+	}
+	@GetMapping("/getAllfood")
+	public List<Food> getAllFood()
+	{
+		return foodService.getFood();
+	}
+	
+	@GetMapping("/getAllCustomer")
+	public List<Customer> getAllCustomer()
+	{
+		return customerRepo.findAll();
+	}
+	
+//	@PostMapping("/sendpn")
+//	public List<ResponseEntity<String>> callPNService()
+//	{
+//		return pnService.callPNService();
+//	}
+//	
+//	@PostMapping("/sendpnbyid")
+//	public ResponseEntity<String> callSMSServiceByID(@RequestBody String pndata)
+//	{
+//		return pnService.callPNServiceById(pndata);
+//	}
+	
+	@PostMapping("/sendpn")
+	public List<ResponseEntity<String>> callPNService()
+	{
+		return pnServiceCustomer.callPNService();
+	}
+	
+	@PostMapping("/sendpnbyid")
+	public ResponseEntity<String> callSMSServiceByID(@RequestBody String pndata)
+	{
+		return pnServiceCustomer.callPNServiceById(pndata);
+	}
+	
+	
+}

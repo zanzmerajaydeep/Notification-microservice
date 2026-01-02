@@ -1,0 +1,31 @@
+
+‹
+java:S16025"SRemove useless curly braces around statement and then remove useless return keyword(ÕÉÔ´ûÿÿÿÿ8İãñ­€1HßRMINORZ
+CODE_SMELL
+X
+java:S3457)"%String contains no format specifiers.(‚Ï™´8İãñ­€1HèRMAJORZ
+CODE_SMELL
+p	java:S106;"9Replace this use of System.out or System.err by a logger.(«òÆÿşÿÿÿÿ8áú–®€1HÜRMAJORZ
+CODE_SMELL
+z
+java:S22591"NA "NullPointerException" could be thrown; "getRefreshToken()" can return null.(˜­æ—8İãñ­€1HéRMAJORZBUG
+ƒ
+java:S16125"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(ÕÉÔ´ûÿÿÿÿ8İãñ­€1HİRMINORZ
+CODE_SMELL
+v
+java:S22593"KA "NullPointerException" could be thrown; "getExpiresAt()" can return null.(£ùâV8İãñ­€1HàRMAJORZBUG
+ˆ	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÉÔ´ûÿÿÿÿ8İãñ­€1HìRMINORZ
+CODE_SMELL
+…
+java:S62047"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(œçÖß8İãñ­€1HåRMAJORZ
+CODE_SMELL
+‹
+java:S1128
+"XRemove this unused import 'org.hibernate.validator.internal.util.logging.LoggerFactory'.(‰‹ÅŸ8áîÜõ1HƒRMINORZ
+CODE_SMELL
+w
+java:S1128"DRemove this unused import 'org.springframework.http.HttpStatusCode'.(®å™Õ8áîÜõ1H…RMINORZ
+CODE_SMELL
+‚
+java:S1128"ORemove this unused import 'org.springframework.security.core.GrantedAuthority'.(½Á±ÿ8áîÜõ1H‡RMINORZ
+CODE_SMELL

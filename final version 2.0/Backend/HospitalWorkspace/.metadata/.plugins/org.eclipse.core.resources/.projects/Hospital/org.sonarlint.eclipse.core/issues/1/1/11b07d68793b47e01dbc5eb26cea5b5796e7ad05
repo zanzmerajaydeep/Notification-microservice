@@ -1,0 +1,30 @@
+
+i	java:S106q"9Replace this use of System.out or System.err by a logger.(¼ë¹ÒûÿÿÿÿHRMAJORZ
+CODE_SMELL
+t
+java:S1854d"<Remove this useless assignment to local variable "resArray".(–òœ¹ÿÿÿÿÿ8Ê“•áı0H‘RMAJORZ
+CODE_SMELL
+i
+java:S1481C"1Remove this unused "hospitalName" local variable.(ÚÍÉÊüÿÿÿÿ8Ê“•áı0H¢RMINORZ
+CODE_SMELL
+x
+java:S1854}"@Remove this useless assignment to local variable "hospitalName".(ÙÓÔ’ùÿÿÿÿ8Ê“•áı0HŸRMAJORZ
+CODE_SMELL
+e
+java:S1481d"-Remove this unused "resArray" local variable.(–òœ¹ÿÿÿÿÿ8Ê“•áı0HRMINORZ
+CODE_SMELL
+q
+java:S1854C"@Remove this useless assignment to local variable "hospitalName".(ÚÍÉÊüÿÿÿÿH”RMAJORZ
+CODE_SMELL
+J
+java:S1700#"Rename field "smsService"(Á¹Â§øÿÿÿÿHRMAJORZ
+CODE_SMELL
+[
+java:S3740-"/Provide the parametrized type for this generic.(’…ÓÆH˜RMAJORZ
+CODE_SMELL
+b
+java:S3740e"/Provide the parametrized type for this generic.(’…ÓÆ8Ê“•áı0H¤RMAJORZ
+CODE_SMELL
+b
+java:S1481}"1Remove this unused "hospitalName" local variable.(ÙÓÔ’ùÿÿÿÿH¥RMINORZ
+CODE_SMELL

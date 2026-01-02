@@ -1,0 +1,50 @@
+package com.foodservice.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("foodData")
+public class Food {
+	private String foodName;
+	private String discount;
+	private String customerName;
+	private String app_token;
+	
+	public Food(String foodName, String discount, String customerName, String app_token) {
+		super();
+		this.foodName = foodName;
+		this.discount = discount;
+		this.customerName = customerName;
+		this.app_token = app_token;
+	}
+	public Food() {
+		super();
+	}
+	public String getFoodName() {
+		return foodName;
+	}
+	public void setFoodName(String foodName) {
+		this.foodName = foodName;
+	}
+	public String getDiscount() {
+		return discount;
+	}
+	public void setDiscount(String discount) {
+		this.discount = discount;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	@Override
+	public String toString() {
+		return "Food [foodName=" + foodName + ", discount=" + discount + ", customerName=" + customerName + "]";
+	}
+	public String getApp_token() {
+		return app_token;
+	}
+	public void setApp_token(String app_token) {
+		this.app_token = app_token;
+	}
+}

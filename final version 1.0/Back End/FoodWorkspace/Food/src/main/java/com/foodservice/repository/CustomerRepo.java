@@ -1,0 +1,13 @@
+package com.foodservice.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.foodservice.model.Customer;
+
+public interface CustomerRepo extends MongoRepository<Customer, String>{
+
+	Customer findByCustomerName(String pndata);
+	
+	
+
+}

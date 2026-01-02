@@ -1,0 +1,5 @@
+package com.foodservice.repository;
+
+public interface CustomerRepo {
+
+}

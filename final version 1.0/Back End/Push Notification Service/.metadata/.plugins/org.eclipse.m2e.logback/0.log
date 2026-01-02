@@ -1,0 +1,71 @@
+2023-04-20 11:34:01,606 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 11:34:21,398 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:PushNotificationService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\pom.xml.
+2023-04-20 11:34:27,078 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-20 11:34:28,939 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:PushNotificationService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\pom.xml.
+2023-04-20 11:34:30,600 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 11:34:30,643 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 11:34:30,649 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-20 11:34:31,960 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 11:34:31,960 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 11:34:31,968 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:34:27,686 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-24 11:35:57,126 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:35:57,290 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:35:57,298 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:36:08,355 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:36:08,370 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:36:08,378 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:37:33,910 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:37:33,917 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:37:33,924 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:40:12,946 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:40:12,952 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:40:12,955 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:40:25,582 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:40:25,588 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:40:25,592 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:40:38,913 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:40:38,920 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:40:38,924 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:41:43,350 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:41:43,357 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:41:43,361 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:41:56,971 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:41:56,977 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:41:56,982 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 11:44:33,060 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 11:44:33,067 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 11:44:33,071 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 12:29:15,940 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 12:29:15,986 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 12:29:15,989 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-24 12:45:12,406 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 12:45:12,464 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 12:45:12,467 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-27 15:33:14,590 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 15:45:08,069 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 15:45:08,107 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:45:08,114 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-27 15:47:44,579 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 15:47:44,584 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:47:44,589 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-04-27 17:48:42,390 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-29 09:18:59,209 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-01 23:23:35,328 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-01 23:24:30,563 [Worker-4: Launching PushNotificationService - PushNotificationServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-01 23:24:30,590 [Worker-4: Launching PushNotificationService - PushNotificationServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-01 23:24:30,595 [Worker-4: Launching PushNotificationService - PushNotificationServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-05-02 23:25:25,549 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-02 23:25:26,078 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-05-02 23:27:13,058 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 23:27:13,078 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 23:27:13,082 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-05-03 11:41:56,486 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-03 11:41:56,543 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-03 11:41:56,547 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-05-03 12:39:19,039 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-03 12:39:19,099 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-03 12:39:19,104 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources
+2023-05-03 12:39:40,421 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-03 12:39:40,427 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-03 12:39:40,430 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\Push Notification Service\PushNotificationService\src\test\resources

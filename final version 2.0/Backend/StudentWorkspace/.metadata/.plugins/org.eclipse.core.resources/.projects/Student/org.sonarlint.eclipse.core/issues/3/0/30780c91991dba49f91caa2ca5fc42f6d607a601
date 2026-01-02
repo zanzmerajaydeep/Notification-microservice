@@ -1,0 +1,28 @@
+
+l
+java:S1854k"<Remove this useless assignment to local variable "resArray".(–òœ¹ÿÿÿÿÿHuRMAJORZ
+CODE_SMELL
+]
+java:S1481k"-Remove this unused "resArray" local variable.(–òœ¹ÿÿÿÿÿHvRMINORZ
+CODE_SMELL
+h	java:S106+"9Replace this use of System.out or System.err by a logger.(Âô¥ùÿÿÿÿHrRMAJORZ
+CODE_SMELL
+w
+java:S1871G"LThis branch's code block is the same as the block for the branch on line 69.(®á¸ôHxRMAJORZ
+CODE_SMELL
+a
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿHzRMINORZ
+CODE_SMELL
+€
+java:S1128
+"HRemove this unused import 'org.springframework.dao.DataAccessException'.(·È³÷ûÿÿÿÿ8‡ Õµş0HªRMINORZ
+CODE_SMELL
+o
+java:S1128"DRemove this unused import 'org.springframework.http.HttpStatusCode'.(®å™ÕH|RMINORZ
+CODE_SMELL
+x
+java:S1871{"MThis branch's code block is the same as the block for the branch on line 121.(®á¸ôHsRMAJORZ
+CODE_SMELL
+j
+java:S1128"7Remove this unused import 'com.mongodb.MongoException'.(­ÙÏ‹8ÂÙÕş0H„RMINORZ
+CODE_SMELL

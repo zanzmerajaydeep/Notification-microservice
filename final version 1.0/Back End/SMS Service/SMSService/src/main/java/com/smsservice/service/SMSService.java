@@ -1,0 +1,55 @@
+package com.smsservice.service;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+import com.twilio.Twilio;
+import com.twilio.rest.api.v2010.account.Message;
+
+@Service
+public class SMSService {
+	
+	
+	
+//	public ResponseEntity<String> sendSMS(@RequestBody Map<String, Object> smsData) {
+//		
+//		Admin admin = adminrepo.findById("642581aad704843a38b35522").get();
+//		String token = admin.getAUTH_TOKEN();
+//		String sid = admin.getACCOUNT_SID();
+//		String phoneno = admin.getPhoneNo();
+//		
+//		Twilio.init(sid, token);
+//		Message message = Message.creator(
+//				new com.twilio.type.PhoneNumber(smsto), 
+//				new com.twilio.type.PhoneNumber(phoneno),
+//				(subject+",\n"+body)).create();
+//		System.out.println(message.getBody());
+//		return new ResponseEntity<String>("Message sent successfully", HttpStatus.OK);
+//	}
+	
+public ResponseEntity<String> sendSMS(@RequestBody Map<String, Object> smsData) {
+	
+	
+	String token = (String) smsData.get("auth_token");
+	String sid= (String) smsData.get("account_sid");
+	String fromphoneno = (String) smsData.get("smsfrom");
+	
+	String smsto= (String) smsData.get("smsto");
+	String subject = (String) smsData.get("subject");
+	String body = (String) smsData.get("body");
+	
+		
+		Twilio.init(sid, token);
+		Message message = Message.creator(
+				new com.twilio.type.PhoneNumber("+91"+smsto), 
+				new com.twilio.type.PhoneNumber(fromphoneno),
+				(subject+",\n"+body)).create();
+		System.out.println(message.getBody());
+		
+		return new ResponseEntity<String>("Message sent successfully", HttpStatus.OK);
+	}
+}

@@ -1,0 +1,80 @@
+2023-04-20 16:29:44,531 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 16:30:01,116 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:EmailService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\pom.xml.
+2023-04-20 16:30:02,640 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 16:30:02,666 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 16:30:02,673 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-20 16:30:04,515 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:EmailService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\pom.xml.
+2023-04-20 16:30:05,072 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-20 16:30:05,195 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 16:30:05,220 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-20 16:30:07,249 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 16:30:07,250 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 16:30:07,254 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-20 17:07:42,603 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 17:07:42,610 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 17:07:42,617 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-24 12:56:52,005 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-24 12:57:33,262 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 12:57:33,305 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 12:57:33,310 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-26 11:49:48,055 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 15:58:25,895 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 15:59:30,074 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:EmailService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\pom.xml.
+2023-04-27 15:59:30,074 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:EmailService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\pom.xml.
+2023-04-27 15:59:34,165 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 15:59:34,202 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:59:34,205 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-27 15:59:34,818 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 15:59:34,820 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:59:34,824 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-27 15:59:35,747 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.einfochips:EmailService:0.0.1-SNAPSHOT @ C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\pom.xml.
+2023-04-27 15:59:37,167 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:59:37,167 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 15:59:37,171 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-27 16:02:45,243 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 16:02:45,261 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 16:02:45,264 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-27 17:23:05,867 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 22:23:06,995 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 22:23:56,088 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-27 22:23:56,128 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-27 22:23:56,133 [Worker-7: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-28 14:25:07,953 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-28 14:25:07,991 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-28 14:25:07,995 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 09:42:50,529 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-29 17:35:36,148 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 17:35:36,282 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 17:35:36,287 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 17:50:17,019 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 17:50:17,025 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 17:50:17,031 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 19:52:47,005 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 19:52:47,128 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 19:52:47,131 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 19:57:41,430 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 19:57:41,505 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 19:57:41,510 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 20:01:30,483 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 20:01:30,493 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 20:01:30,497 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 20:05:18,654 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 20:05:18,680 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 20:05:18,684 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 20:09:05,396 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 20:09:05,410 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 20:09:05,414 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-29 20:34:24,012 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-29 20:34:24,047 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-29 20:34:24,051 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-04-30 00:27:09,924 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-02 10:16:32,905 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-02 13:50:01,419 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-02 23:13:44,866 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-02 23:13:45,404 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-02 23:13:45,418 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources
+2023-05-03 09:02:09,199 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-03 14:53:20,034 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-03 14:53:54,057 [Worker-3: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-05-03 14:53:54,092 [Worker-3: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-05-03 14:53:54,096 [Worker-3: Launching EmailService - EmailServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158151\OneDrive - Arrow Electronics, Inc\Desktop\Final Project\Backend\EmailWorkspace\EmailService\src\test\resources

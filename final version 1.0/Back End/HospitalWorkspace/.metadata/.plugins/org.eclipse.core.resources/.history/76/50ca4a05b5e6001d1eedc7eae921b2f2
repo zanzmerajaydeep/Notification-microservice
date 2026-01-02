@@ -1,0 +1,16 @@
+package com.hospital.service;
+
+import java.util.List;
+
+	
+
+import com.hospital.model.Hospital;
+
+
+public interface HospitalService {
+
+	public List<Hospital> getPatient();
+
+	public Hospital addPatient(Hospital hospital);
+
+}

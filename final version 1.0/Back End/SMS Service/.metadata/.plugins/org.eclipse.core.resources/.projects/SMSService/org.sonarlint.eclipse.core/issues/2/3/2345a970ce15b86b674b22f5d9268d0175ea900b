@@ -1,0 +1,11 @@
+
+Š
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(™åðøùÿÿÿÿH±RMINORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(Ò¤ÞÔH³RMAJORZ
+CODE_SMELL
+i	java:S1063"9Replace this use of System.out or System.err by a logger.(ÇŒ´ùÿÿÿÿH½RMAJORZ
+CODE_SMELL
+„
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸ÎùÿÿÿÿH¾RMINORZ
+CODE_SMELL

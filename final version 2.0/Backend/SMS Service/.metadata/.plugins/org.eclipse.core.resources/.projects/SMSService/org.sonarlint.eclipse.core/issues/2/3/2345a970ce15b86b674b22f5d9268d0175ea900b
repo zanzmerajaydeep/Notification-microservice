@@ -1,0 +1,10 @@
+
+n
+java:S1854";Remove this useless assignment to local variable "message".(»š­¤8«è›§þ0H²RMAJORZ
+CODE_SMELL
+_
+java:S1481",Remove this unused "message" local variable.(»š­¤8«è›§þ0H³RMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™åðøùÿÿÿÿHµRMINORZ
+CODE_SMELL
